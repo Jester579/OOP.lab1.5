@@ -19,12 +19,22 @@ void Man::Display() const
 }
 void Man::Read()
 {
-	string name;
-	int age;
-	cout << endl;
-	cout << "name =  "; cin >> name;
-	cout << "age =  "; cin >> age;
-	cout << "sex(M/W) =  "; cin >> sex;
-	cout << "wigth =  "; cin >> wigth;
-	Init(name, age, sex, wigth);
+    string name;
+    int age;
+    double wigth;
+
+    cout << endl;
+    cout << "name =  "; cin >> name;
+
+    do {
+        cout << "age =  "; cin >> age;
+    } while (age < 0);
+
+    cout << "sex(M/W) =  "; cin >> sex;
+
+    do {
+        cout << "wigth =  "; cin >> wigth;
+    } while (wigth < 0);
+
+    Init(name, age, sex, wigth);
 }

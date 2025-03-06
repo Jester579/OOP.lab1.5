@@ -15,11 +15,16 @@ void Student::Display() const {
 
 void Student::Read()
 {
-	string spec;
-	Man m;
-	cout << endl;
-	cout << "Man =  " << endl;
-	m.Read(); 
-	cout << "year =  "; cin >> year;
-	Init(year, m);
+    Man m;
+    cout << endl;
+    cout << "Man =  " << endl;
+    m.Read();
+
+    do {
+        cout << "year =  "; cin >> year;
+        if (year < 1816 || year > 2025)
+            cout << "(1816 - 2025)" << endl;
+    } while (year < 1816 || year > 2025);
+
+    Init(year, m);
 }

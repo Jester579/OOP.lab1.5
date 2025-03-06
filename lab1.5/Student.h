@@ -11,7 +11,7 @@ private:
 public:
 	int getYear() const { return year; }
 	Man getMan() const { return man; }
-	void setYear(int year) { this->year = year; }
+	void setYear(int year) { if (year >= 1816 && year <= 2025) this->year = year; }
 	void setMan(Man man) { this->man = man; }
 
 	void Init(int year, Man man);

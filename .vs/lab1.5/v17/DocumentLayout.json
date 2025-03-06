@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Clown\\source\\repos\\lab1.5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Man.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|solutionrelative:lab1.5\\Man.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|solutionrelative:lab1.5\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|solutionrelative:lab1.5\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Man.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|solutionrelative:lab1.5\\Man.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B174B4D9-27E2-4B47-AE59-A7BB861C9470}|lab1.5\\lab1.5.vcxproj|C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Man.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -46,38 +46,37 @@
               "RelativeToolTip": "UnitTest1\\UnitTest1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-05T18:07:34.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T18:07:34.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Source.cpp",
               "RelativeDocumentMoniker": "lab1.5\\Source.cpp",
               "ToolTip": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Source.cpp",
               "RelativeToolTip": "lab1.5\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-05T17:57:55.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cpp",
               "DocumentMoniker": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Student.cpp",
               "RelativeDocumentMoniker": "lab1.5\\Student.cpp",
               "ToolTip": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Student.cpp",
               "RelativeToolTip": "lab1.5\\Student.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-05T17:55:49.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.h",
               "DocumentMoniker": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Student.h",
               "RelativeDocumentMoniker": "lab1.5\\Student.h",
@@ -90,13 +89,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Man.cpp",
               "DocumentMoniker": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Man.cpp",
               "RelativeDocumentMoniker": "lab1.5\\Man.cpp",
               "ToolTip": "C:\\Users\\Clown\\source\\repos\\lab1.5\\lab1.5\\Man.cpp",
               "RelativeToolTip": "lab1.5\\Man.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-05T13:56:31.51Z",
               "EditorCaption": ""
